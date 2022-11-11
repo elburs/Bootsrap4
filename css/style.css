@@ -1,0 +1,48 @@
+* {
+  list-style-type: none;
+  font-family: "Raleway";
+}
+
+.header_menu {
+  background-image: url(/img/Yanki\ \(51\)\ 1.png),url(/img/Yanki\ \(51\)\ 2.png),url(/img/Yanki\ \(51\)\ 3.png);
+  background-repeat: no-repeat,repeat-x,repeat-x;
+  width: 100%;
+  height: 100vh;
+}
+.logo {
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.menu::after {
+  content: "/2630";
+  color: white;
+  position: absolute;
+  top: 2%;
+}
+
+.menu_list li a {
+  color: white;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+  margin: 5px 10px;
+  padding: 10px;
+}
+
+.menu_list {
+    justify-content:center;
+}
+.ml{
+  justify-content: space-between;
+  width: 30%;
+}
+.menu_list li>i{
+    color: aliceblue;
+}
